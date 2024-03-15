@@ -18,6 +18,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
 }
 /* ----- SMOOTH SCROLL ----- */
 html{
@@ -88,6 +89,11 @@ nav{
     font-size: 30px;
     font-weight: 600;
     color: var(--text-color-third);
+}
+
+.nav-button a{
+    text-decoration: none;
+    color: var(--first-color);
 }
 .nav-logo span{
     position: absolute;
